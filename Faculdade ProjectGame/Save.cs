@@ -36,6 +36,7 @@ namespace Faculdade_ProjectGame
             }
 
             writer.WriteLine(Static.itemEquiped);
+            writer.WriteLine(Static._musicIsPlaying);
 
             writer.Dispose();
         }
@@ -64,7 +65,8 @@ namespace Faculdade_ProjectGame
                         Static.itemsPurchased[i] = bool.Parse(reader.ReadLine());
                     }
 
-                    Static.itemEquiped = int.Parse(reader.ReadToEnd());
+                    Static.itemEquiped = int.Parse(reader.ReadLine());
+                    Static._musicIsPlaying = bool.Parse(reader.ReadLine());
 
                     reader.Dispose();
                 }

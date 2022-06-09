@@ -23,3 +23,15 @@ C:\Users\Hyouka\Documents\VS Projects\C# Projects\ProjectGame\Faculdade ProjectG
 C:\Users\Hyouka\Documents\VS Projects\C# Projects\ProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.exe.config
 C:\Users\Hyouka\Documents\VS Projects\C# Projects\ProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.exe
 C:\Users\Hyouka\Documents\VS Projects\C# Projects\ProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.pdb
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.exe.config
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.exe
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\bin\Debug\Faculdade ProjectGame.pdb
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade ProjectGame.csproj.AssemblyReference.cache
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade_ProjectGame.FormProfile.resources
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade_ProjectGame.FormMain.resources
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade_ProjectGame.FormShop.resources
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade_ProjectGame.Properties.Resources.resources
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade ProjectGame.csproj.GenerateResource.cache
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade ProjectGame.csproj.CoreCompileInputs.cache
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade ProjectGame.exe
+D:\Usuários\Hyouka\Documents\C# Projects\SimpleProjectGame\SimpleProjectGame\Faculdade ProjectGame\obj\Debug\Faculdade ProjectGame.pdb

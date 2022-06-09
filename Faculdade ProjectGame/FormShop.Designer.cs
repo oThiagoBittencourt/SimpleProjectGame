@@ -79,7 +79,7 @@ namespace Faculdade_ProjectGame
             this.panel1.Location = new System.Drawing.Point(33, 41);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(70, 97);
-            this.panel1.TabIndex = 2;
+            this.panel1.TabIndex = 0;
             // 
             // label1
             // 
@@ -88,7 +88,7 @@ namespace Faculdade_ProjectGame
             this.label1.Margin = new System.Windows.Forms.Padding(20, 10, 20, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 15);
-            this.label1.TabIndex = 5;
+            this.label1.TabIndex = 1;
             this.label1.Text = "0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -100,7 +100,7 @@ namespace Faculdade_ProjectGame
             this.button1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 23);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 0;
             this.button1.Text = "Buy";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -112,7 +112,7 @@ namespace Faculdade_ProjectGame
             this.lb_myCoins.Location = new System.Drawing.Point(12, 8);
             this.lb_myCoins.Name = "lb_myCoins";
             this.lb_myCoins.Size = new System.Drawing.Size(190, 30);
-            this.lb_myCoins.TabIndex = 4;
+            this.lb_myCoins.TabIndex = 5;
             this.lb_myCoins.Text = "MY COINS: 0";
             this.lb_myCoins.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -126,7 +126,7 @@ namespace Faculdade_ProjectGame
             this.panel2.Location = new System.Drawing.Point(109, 41);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(70, 97);
-            this.panel2.TabIndex = 6;
+            this.panel2.TabIndex = 1;
             // 
             // label2
             // 
@@ -135,7 +135,7 @@ namespace Faculdade_ProjectGame
             this.label2.Margin = new System.Windows.Forms.Padding(20, 10, 20, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 15);
-            this.label2.TabIndex = 5;
+            this.label2.TabIndex = 1;
             this.label2.Text = "20";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -147,7 +147,7 @@ namespace Faculdade_ProjectGame
             this.button2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 23);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 0;
             this.button2.Text = "Buy";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -173,7 +173,7 @@ namespace Faculdade_ProjectGame
             this.panel3.Location = new System.Drawing.Point(33, 144);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(70, 97);
-            this.panel3.TabIndex = 6;
+            this.panel3.TabIndex = 2;
             // 
             // label3
             // 
@@ -182,7 +182,7 @@ namespace Faculdade_ProjectGame
             this.label3.Margin = new System.Windows.Forms.Padding(20, 10, 20, 20);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 15);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 1;
             this.label3.Text = "35";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -194,7 +194,7 @@ namespace Faculdade_ProjectGame
             this.button3.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 23);
-            this.button3.TabIndex = 1;
+            this.button3.TabIndex = 0;
             this.button3.Text = "Buy";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -220,7 +220,7 @@ namespace Faculdade_ProjectGame
             this.panel4.Location = new System.Drawing.Point(109, 144);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(70, 97);
-            this.panel4.TabIndex = 6;
+            this.panel4.TabIndex = 3;
             // 
             // label4
             // 
@@ -229,7 +229,7 @@ namespace Faculdade_ProjectGame
             this.label4.Margin = new System.Windows.Forms.Padding(20, 10, 20, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(30, 15);
-            this.label4.TabIndex = 5;
+            this.label4.TabIndex = 1;
             this.label4.Text = "50";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -241,7 +241,7 @@ namespace Faculdade_ProjectGame
             this.button4.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 23);
-            this.button4.TabIndex = 1;
+            this.button4.TabIndex = 0;
             this.button4.Text = "Buy";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -263,7 +263,7 @@ namespace Faculdade_ProjectGame
             this.btn_back.Location = new System.Drawing.Point(132, 247);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(70, 25);
-            this.btn_back.TabIndex = 7;
+            this.btn_back.TabIndex = 4;
             this.btn_back.Text = "Back";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
@@ -284,7 +284,7 @@ namespace Faculdade_ProjectGame
             this.MaximizeBox = false;
             this.Name = "FormShop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Shop";
+            this.Text = "e";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

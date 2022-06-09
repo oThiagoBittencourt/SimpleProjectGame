@@ -45,7 +45,7 @@ namespace Faculdade_ProjectGame
             this.lb_bestScore.Margin = new System.Windows.Forms.Padding(5);
             this.lb_bestScore.Name = "lb_bestScore";
             this.lb_bestScore.Size = new System.Drawing.Size(314, 23);
-            this.lb_bestScore.TabIndex = 0;
+            this.lb_bestScore.TabIndex = 1;
             this.lb_bestScore.Text = "Best Score: 0";
             // 
             // lb_gamesPlayed
@@ -55,7 +55,7 @@ namespace Faculdade_ProjectGame
             this.lb_gamesPlayed.Margin = new System.Windows.Forms.Padding(5);
             this.lb_gamesPlayed.Name = "lb_gamesPlayed";
             this.lb_gamesPlayed.Size = new System.Drawing.Size(314, 23);
-            this.lb_gamesPlayed.TabIndex = 1;
+            this.lb_gamesPlayed.TabIndex = 2;
             this.lb_gamesPlayed.Text = "Games Played: 0";
             // 
             // lb_coins
@@ -65,7 +65,7 @@ namespace Faculdade_ProjectGame
             this.lb_coins.Margin = new System.Windows.Forms.Padding(5);
             this.lb_coins.Name = "lb_coins";
             this.lb_coins.Size = new System.Drawing.Size(314, 23);
-            this.lb_coins.TabIndex = 2;
+            this.lb_coins.TabIndex = 3;
             this.lb_coins.Text = "Coins: 0";
             // 
             // pictureBox1
@@ -84,7 +84,7 @@ namespace Faculdade_ProjectGame
             this.btn_back.Location = new System.Drawing.Point(252, 209);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(70, 25);
-            this.btn_back.TabIndex = 4;
+            this.btn_back.TabIndex = 0;
             this.btn_back.Text = "Back";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);

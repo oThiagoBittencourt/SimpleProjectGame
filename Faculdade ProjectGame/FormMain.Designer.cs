@@ -47,6 +47,9 @@ namespace Faculdade_ProjectGame
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.preferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.musicOnOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.profileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,9 +57,6 @@ namespace Faculdade_ProjectGame
             this.lb_coins = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.lb_version = new System.Windows.Forms.Label();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.musicOnOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo3)).BeginInit();
@@ -82,7 +82,7 @@ namespace Faculdade_ProjectGame
             this.panel1.Location = new System.Drawing.Point(12, 69);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(400, 400);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // inimigo5
             // 
@@ -164,7 +164,7 @@ namespace Faculdade_ProjectGame
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(424, 24);
-            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // GameToolStripMenuItem
@@ -220,6 +220,24 @@ namespace Faculdade_ProjectGame
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
             this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox1_SelectedIndexChanged);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
+            // 
+            // musicOnOffToolStripMenuItem
+            // 
+            this.musicOnOffToolStripMenuItem.Name = "musicOnOffToolStripMenuItem";
+            this.musicOnOffToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
+            this.musicOnOffToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.musicOnOffToolStripMenuItem.Text = "Music";
+            this.musicOnOffToolStripMenuItem.Click += new System.EventHandler(this.soundOnOffToolStripMenuItem_Click);
+            // 
             // shopToolStripMenuItem
             // 
             this.shopToolStripMenuItem.Name = "shopToolStripMenuItem";
@@ -254,7 +272,7 @@ namespace Faculdade_ProjectGame
             this.lb_score.Name = "lb_score";
             this.lb_score.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lb_score.Size = new System.Drawing.Size(186, 30);
-            this.lb_score.TabIndex = 2;
+            this.lb_score.TabIndex = 3;
             this.lb_score.Text = "SCORE 0";
             // 
             // lb_coins
@@ -263,7 +281,7 @@ namespace Faculdade_ProjectGame
             this.lb_coins.Location = new System.Drawing.Point(12, 36);
             this.lb_coins.Name = "lb_coins";
             this.lb_coins.Size = new System.Drawing.Size(186, 30);
-            this.lb_coins.TabIndex = 3;
+            this.lb_coins.TabIndex = 2;
             this.lb_coins.Text = "COINS: 0";
             // 
             // timer2
@@ -278,27 +296,7 @@ namespace Faculdade_ProjectGame
             this.lb_version.Name = "lb_version";
             this.lb_version.Size = new System.Drawing.Size(19, 9);
             this.lb_version.TabIndex = 4;
-            this.lb_version.Text = "v1.0";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
-            // 
-            // musicOnOffToolStripMenuItem
-            // 
-            this.musicOnOffToolStripMenuItem.Checked = true;
-            this.musicOnOffToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.musicOnOffToolStripMenuItem.Name = "musicOnOffToolStripMenuItem";
-            this.musicOnOffToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
-            this.musicOnOffToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.musicOnOffToolStripMenuItem.Text = "Music";
-            this.musicOnOffToolStripMenuItem.Click += new System.EventHandler(this.soundOnOffToolStripMenuItem_Click);
+            this.lb_version.Text = "v1.1";
             // 
             // FormMain
             // 

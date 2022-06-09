@@ -14,6 +14,7 @@ namespace Faculdade_ProjectGame
         public static Color _playerColor;
         public static int _bestScore = 0, _coins = 0, _gamesPlayed = 0;
         public static bool _lightMode = false;
+        public static bool _musicIsPlaying = true;
 
         //Shop
         public static bool[] itemsPurchased = new bool[4];

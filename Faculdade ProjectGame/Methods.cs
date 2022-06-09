@@ -25,9 +25,15 @@ namespace Faculdade_ProjectGame
             SoundPlayer music = new SoundPlayer(AppDomain.CurrentDomain.BaseDirectory + "Music.wav");
 
             if (stats)
+            {
                 music.PlayLooping();
+                Static._musicIsPlaying = true;
+            }
             else
+            {
                 music.Stop();
+                Static._musicIsPlaying = false;
+            }
         }
 
         void WalkCheck(KeyEventArgs e)

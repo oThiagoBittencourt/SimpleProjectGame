@@ -28,7 +28,11 @@ namespace Faculdade_ProjectGame
         }
         private void FormMain_Load(object sender, EventArgs e)
         {
-            PlayMusic(true);
+            if (Static._musicIsPlaying)
+            {
+                PlayMusic(true);
+                musicOnOffToolStripMenuItem.Checked = true;
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
